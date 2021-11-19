@@ -57,7 +57,7 @@ function App() {
        <button ref={ref2} onClick={setPalletes2} style={{backgroundColor:`${color2}`}}>&nbsp;</button>
       </section>
       <section className='selection'>
-        <h2>CURRENT CSS SELECTION</h2>
+        <h2>CURRENT SELECTION</h2>
         <p className='text'>linear-gradient(to right, {color}, {color2})</p>
       </section>
       <section>
