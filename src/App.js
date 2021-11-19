@@ -51,7 +51,7 @@ function App() {
   return (
     <div className="App"  style={{background:`linear-gradient(to right,${color},${color2})`}} >
       
-      <h1>BACKGROUND GENERATOR</h1>
+      <h1>MY BACKGROUND GENERATOR</h1>
       <section>
       <button ref={ref} onClick={setPalletes} style={{backgroundColor:`${color}`}}>&nbsp;</button>
        <button ref={ref2} onClick={setPalletes2} style={{backgroundColor:`${color2}`}}>&nbsp;</button>
